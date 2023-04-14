@@ -1,8 +1,8 @@
 {
-  "name": "react-native-new-template",
-  "version": "0.0.5",
-  "description": "React Native Template",
-  "repository": "git@github.com:Esemesek/react-native-new-template.git",
-  "author": "Kacper Wiszczuk <kacperwiszczuk@gmail.com>",
+  "name": "rebarrntemplate",
+  "version": "0.0.1",
+  "description": "Rebar React Native Template",
+  "repository": "https://github.com/Michael-Rebar/rebarRNTemplate.git",
+  "author": "Michael Yambao",
   "license": "MIT"
 }
