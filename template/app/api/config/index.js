@@ -1,0 +1,31 @@
+const url = {
+  dev: {
+    version: "/v1",
+    login: "https://be8v8xtrt4.execute-api.ap-southeast-1.amazonaws.com",
+    tokens: "https://phoenix.account.singlife.com/auth/realms/philippines-customers/protocol/openid-connect",
+    resend: "https://phoenix.integrate.singlife.com/v11/sso-service",
+    otp_auth: "https://cfywzrrpoh.execute-api.ap-southeast-1.amazonaws.com",
+    otp: "https://mmzybynjo3.execute-api.ap-southeast-1.amazonaws.com",
+    reference: "https://c5x4w7uen0.execute-api.ap-southeast-1.amazonaws.com",
+    banks: "https://zja3074yg8.execute-api.ap-southeast-1.amazonaws.com",
+    onboarding: "https://5mvpng7uod.execute-api.ap-southeast-1.amazonaws.com",
+    pricing: "https://ad6ll08fy4.execute-api.ap-southeast-1.amazonaws.com",
+    pfe: "https://3jouokw1wj.execute-api.ap-southeast-1.amazonaws.com",
+    pfe2: "https://lq3uy6tj5c.execute-api.ap-southeast-1.amazonaws.com",
+    ekyc: "https://hi3yh9vks5.execute-api.us-east-1.amazonaws.com",
+    ekyc2: "https://ruf4kc8oh7.execute-api.ap-southeast-1.amazonaws.com",
+    cash_in: "https://mtote7v3h7.execute-api.ap-southeast-1.amazonaws.com",
+    eon: "https://cd30eujzz7.execute-api.ap-southeast-1.amazonaws.com",
+    ebao: "https://10gx2itr1l.execute-api.ap-southeast-1.amazonaws.com",
+    fundBalance: "https://fupfzr8ffh.execute-api.ap-southeast-1.amazonaws.com",
+    pfePartyPolicy: "https://3jouokw1wj.execute-api.ap-southeast-1.amazonaws.com",
+    userAgreement: "https://rma82xqe0i.execute-api.ap-southeast-1.amazonaws.com",
+    party: "https://7j8f7krqbf.execute-api.ap-southeast-1.amazonaws.com",
+    cash_out: "https://w8du494mi7.execute-api.ap-southeast-1.amazonaws.com",
+    customer: "https://7j8f7krqbf.execute-api.ap-southeast-1.amazonaws.com",
+    singlife_card: "https://2vfm1vn940.execute-api.ap-southeast-1.amazonaws.com",
+    notification: "https://wjds9hhgj8.execute-api.ap-southeast-1.amazonaws.com",
+  },
+};
+
+export default url;

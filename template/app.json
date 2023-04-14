@@ -1,0 +1,42 @@
+{
+  "name": "greninja",
+  "displayName": "greninja",
+  "expo": {
+    "name": "Singlife PH",
+    "slug": "singlife-ph",
+    "version": "1.4.25",
+    "icon": "./app/assets/images/appIcon.png",
+    "splash": {
+      "image": "./app/assets/images/app-icon.png",
+      "backgroundColor": "#ff3737"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "android": {
+      "package": "com.vinceveridiano.singlifeph"
+    },
+    "ios": {
+      "bundleIdentifier": "com.vinceveridiano.singlifeph",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Uses FaceId to Authenticate users faster"
+      }
+    }
+  }
+}
